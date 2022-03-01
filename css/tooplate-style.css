@@ -39,9 +39,9 @@ a {
   text-decoration: none !important;
   transition: all 0.4s ease;
 }
-a:hover {
+/* a:hover {
   color: #ffc200 !important;
-}
+} */
 
 .navbar-brand .uil {
   font-size: 40px;
@@ -116,7 +116,10 @@ b, strong {
 }
 
 .animated-item {
-  color: #ffc200;
+  background: linear-gradient(to right, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .animated-item {
@@ -127,7 +130,7 @@ b, strong {
   overflow: hidden;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -80px;
   left: 0;
   animation: BottomTotop 6s linear infinite 0s;
 }
@@ -290,7 +293,7 @@ b, strong {
 }
 
 .dark-mode {
-  background: #0c0c0d;
+  background: black;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
@@ -507,7 +510,7 @@ b, strong {
   }
 
   .navbar-collapse {
-    background: #ffffff;
+    background: black;
     text-align: center;
     padding-bottom: 20px;
   }

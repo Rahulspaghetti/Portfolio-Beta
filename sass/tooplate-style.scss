@@ -16,7 +16,7 @@ $h2-font-color: #353535;
 $h3-font-color: #484848;
 $body-font-color: #5b5b5b;
 $text-white: #ffffff;
-$dark-mode-color: #0c0c0d;
+$dark-mode-color: black;
 $main-color: #ffc200;
 $border-color: #f2f2f1;
 $button-color: #474559;
@@ -326,7 +326,7 @@ b, strong {
 }
 
 .dark-mode {
-	background: $dark-mode-color;
+	background: black;
 	.navbar-light .navbar-nav .nav-link {
 		color: rgba(255,255,255,0.8);
 		&:hover {
@@ -335,7 +335,7 @@ b, strong {
 	}
 	.navbar {
 		&[class*="headroom--not-top"] {
-			background: $dark-mode-color;
+			background: black;
 			border-bottom: 1px solid #1f1f1f;
 	    }
 	}
